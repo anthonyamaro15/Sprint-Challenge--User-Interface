@@ -155,7 +155,7 @@ p {
 /*******START OF THE HEADER***************/
 
 header {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -192,7 +192,7 @@ header {
 /*******END OF THE HEADER***************/
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 1rem auto 0;
 }
 
