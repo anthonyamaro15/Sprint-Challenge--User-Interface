@@ -152,6 +152,8 @@ p {
   line-height: 1.4;
 }
 
+/*******START OF THE HEADER***************/
+
 header {
   width: 1200px;
   margin: 0 auto;
@@ -163,11 +165,9 @@ header {
   align-items: center;
   height: 5vh;
   padding: 3rem 0;
-  /* border: 1px solid blue; */
 }
 
 .header-links {
-  /* border: 1px solid red; */
   width: 75%;
   display: flex;
   justify-content: space-around;
@@ -176,7 +176,6 @@ header {
 .header-links a {
   text-decoration: none;
   color: #333;
-  /* font-size: 1.1rem; */
 }
 
 .header-img img {
@@ -184,6 +183,8 @@ header {
   height: 20vh;
   margin: 2rem 0;
 }
+
+/*******END OF THE HEADER***************/
 
 .container {
   width: 1200px;
@@ -227,10 +228,44 @@ header {
   justify-content: space-evenly;
 }
 
+/*********************************/
+/*******COLOR THE BOXES***************/
+
+.box:nth-child(1) {
+  background: teal;
+}
+.box:nth-child(2) {
+  background: gold;
+}
+.box:nth-child(3) {
+  background: cadetblue;
+}
+.box:nth-child(4) {
+  background: coral;
+}
+.box:nth-child(5) {
+  background: crimson;
+}
+.box:nth-child(6) {
+  background: forestgreen;
+}
+.box:nth-child(7) {
+  background: darkorchid;
+}
+.box:nth-child(8) {
+  background: hotpink;
+}
+.box:nth-child(9) {
+  background: indigo;
+}
+.box:nth-child(10) {
+  background: dodgerblue;
+}
+/*******END OF COLOR THE BOXES***************/
+
 .middle-content .boxes .box {
   width: 12.5%;
   height: 130px;
-  background: black;
   margin: 2rem 2.5%;
   color: white;
   display: flex;
@@ -276,7 +311,6 @@ footer nav a {
 /*****  ABOUT PAGE STARTS HERE  ********/
 
 .about {
-  /* border: 1px solid red; */
   padding: 0 1rem 2rem;
 }
 
@@ -314,7 +348,8 @@ footer nav a {
 }
 
 .bottom-section {
-  /* border: 1px solid red; */
   padding: 0 1rem;
   margin-bottom: 3rem;
 }
+
+/***** END OF ABOUT PAGE HERE  ********/
