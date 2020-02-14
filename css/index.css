@@ -176,6 +176,11 @@ header {
 .header-links a {
   text-decoration: none;
   color: #333;
+  transition: color 0.5s ease;
+}
+
+.header-links a:hover {
+  color: teal;
 }
 
 .header-img img {
@@ -304,7 +309,11 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
-  /* font-size: 1.1rem; */
+  transition: color 0.5s ease;
+}
+
+footer nav a:hover {
+  color: teal;
 }
 
 /***************************************/
@@ -345,6 +354,12 @@ footer nav a {
   padding: 0.5rem 1.5rem;
   border-radius: 8px;
   border: 2px solid #333;
+  transition: all 0.5s ease;
+}
+
+.shared-classes button:hover {
+  border-color: teal;
+  color: teal;
 }
 
 .bottom-section {
